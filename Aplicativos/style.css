@@ -1,0 +1,46 @@
+body{   
+    background-color: black;
+    color: forestgreen;
+    font-family: 'Orbitron', sans-serif;
+    overflow-x: hidden;
+    min-height: 100vh;
+    display: block;  
+}
+
+
+h1{         
+
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 50px;
+
+ 
+}
+
+p{      
+    margin-left: 30px;
+    font-size:20px;
+}
+.Primeira-imagem{
+    text-align: center;
+}
+.Botao_SegundaPagina{
+    text-align: center;
+}
+
+button{
+    background-color: forestgreen;
+    border-radius: 15px;
+    padding: 10px 15px;
+    cursor:grab;       
+}
+button.houver{
+    background-color: white;
+}
+button.active{
+    background-color: aliceblue;
+}
+@keyframes slideup{ 
+    from{ transform: translatey(50px); opacity: 0;}
+    to{transform: translatey(0);opacity: 1;}
+}
