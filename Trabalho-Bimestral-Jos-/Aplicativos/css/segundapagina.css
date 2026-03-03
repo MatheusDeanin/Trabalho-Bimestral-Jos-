@@ -1,0 +1,24 @@
+body{
+    display: block;
+}
+
+h1 {
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+table{
+    border-radius: 10px;
+    border: 5px double;
+    margin: 50px auto;
+    text-align: justify;
+    box-shadow: 4px 3px 4px 3px black;
+}
+
+td{
+    border: 2px solid;
+    border-radius: 3px;
+}
